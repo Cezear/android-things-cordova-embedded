@@ -5,12 +5,12 @@ def verMinor = 0
 def verPatch = 0
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 28
     buildToolsVersion "29.0.0"
     defaultConfig {
         applicationId "net.jesselockard.android_cordova_embedded"
         minSdkVersion 25
-        targetSdkVersion 29
+        targetSdkVersion 28
         versionCode verMajor * 10000 + verMinor * 100 + verPatch
         versionName "${verMajor}.${verMinor}.${verPatch}"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
